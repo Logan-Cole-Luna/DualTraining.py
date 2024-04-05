@@ -214,3 +214,526 @@
 2024-04-05 16:43:56,253 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
 2024-04-05 16:43:59,711 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
 2024-04-05 16:43:59,928 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:03,961 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:05,494 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:10,028 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:10,743 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:11,255 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:44:11,270 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:44:11,270 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:44:14,055 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:16,415 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:18,077 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:21,781 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:24,136 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:26,008 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:44:26,257 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:44:26,272 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:44:26,273 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:44:27,444 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:28,189 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:32,230 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:33,073 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:38,272 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:38,797 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:41,260 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:44:41,276 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:44:41,276 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:44:42,321 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:44,460 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:48,377 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:50,433 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:52,423 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:44:56,014 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:44:56,015 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:44:56,266 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:44:56,281 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:44:56,282 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:44:56,468 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:01,538 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:01,759 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:05,581 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:07,423 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:09,634 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:11,281 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:45:11,297 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:45:11,297 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:45:13,409 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:15,690 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:18,439 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:19,766 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:23,482 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:26,026 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:45:26,288 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:45:26,301 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:45:26,301 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:45:27,840 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:29,257 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:33,879 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:34,292 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:39,355 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:39,926 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:41,300 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:45:41,300 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:45:41,300 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:45:43,964 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:44,990 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:50,012 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:45:51,032 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:56,046 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:45:56,046 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:45:56,314 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:45:56,330 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:45:56,330 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:46:02,000 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:02,112 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:06,146 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:07,634 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:11,329 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:46:11,345 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:46:11,345 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:46:12,202 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:13,449 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:16,221 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:19,026 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:22,261 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:24,110 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:26,049 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:46:26,289 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:26,337 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:46:26,353 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:46:26,353 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:46:29,417 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:30,320 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:35,132 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:36,374 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:40,409 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:40,775 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:41,346 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:46:41,362 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:46:41,362 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:46:44,441 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:46,337 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:50,485 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:51,896 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:54,525 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:46:56,052 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:46:56,367 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:46:56,367 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:46:56,367 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:46:57,103 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:46:58,536 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:02,710 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:04,584 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:08,533 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:08,593 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:11,387 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:47:11,387 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:47:11,387 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:47:12,635 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:13,579 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:16,657 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:18,674 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:22,715 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:24,477 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:25,740 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:26,056 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:47:26,385 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:47:26,400 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:47:26,401 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:47:29,483 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:29,784 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:35,235 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:35,828 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:39,858 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:40,755 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:41,394 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:47:41,411 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:47:41,411 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:47:43,888 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:45,984 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:49,919 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:51,474 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:54,679 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:47:56,068 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:47:56,397 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:47:56,411 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:47:56,411 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:47:56,491 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:47:58,727 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:02,390 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:03,762 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:07,781 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:07,823 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:11,399 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:48:11,430 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:48:11,431 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:48:11,826 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:13,615 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:15,849 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:18,726 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:21,910 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:23,745 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:25,965 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:26,076 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:48:26,402 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:48:26,436 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:48:26,437 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:48:29,115 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:30,001 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:34,024 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:34,384 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:38,069 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:39,817 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:41,408 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:48:41,439 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:48:41,439 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:48:42,095 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:45,354 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:48,156 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:50,714 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:52,210 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:56,004 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:48:56,091 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:48:56,267 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:48:56,421 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:48:56,454 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:48:56,454 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:49:00,301 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:01,287 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:04,319 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:06,588 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:08,350 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:11,428 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:49:11,459 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:49:11,460 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:49:11,626 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:12,382 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:17,486 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:18,439 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:22,477 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:23,021 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:26,100 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:49:26,442 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:49:26,457 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:49:26,458 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:49:26,489 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:28,565 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:30,524 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:33,874 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:34,563 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:38,614 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:39,347 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:41,454 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:49:41,454 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:49:41,455 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:49:44,578 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:44,672 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:48,705 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:49,850 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:52,726 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:49:55,607 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:49:56,107 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:49:56,466 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:49:56,466 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:49:56,466 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:49:56,758 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:00,799 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:00,923 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:03,819 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:06,168 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:09,867 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:11,459 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:11,473 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:50:11,489 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:50:11,489 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:50:13,907 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:17,077 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:17,939 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:21,972 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:22,537 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:26,004 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:26,111 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:50:26,489 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:50:26,489 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:50:26,489 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:50:27,610 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:30,059 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:33,120 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:36,104 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:38,784 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:40,127 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:41,485 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:50:41,486 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:50:41,501 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:50:44,118 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:44,165 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:48,200 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:49,284 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:52,225 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:54,728 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:50:56,115 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:50:56,272 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:50:56,505 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:50:56,505 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:50:56,506 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:51:00,250 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:00,297 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:05,714 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:06,344 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:10,397 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:11,092 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:11,499 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:51:11,499 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:51:11,515 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:51:14,421 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:16,336 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:18,459 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:22,024 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:22,478 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:26,128 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:51:26,498 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:51:26,498 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:51:26,529 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:51:26,530 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:27,682 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:32,577 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:32,732 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:36,599 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:38,083 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:40,649 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:41,505 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:51:41,506 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:51:41,537 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:51:43,862 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:44,678 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:48,686 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:49,091 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:54,568 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:51:54,740 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:56,141 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:51:56,515 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:51:56,515 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:51:56,546 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:51:58,780 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:51:59,652 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:02,829 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:04,778 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:06,848 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:09,877 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:10,128 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:11,516 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:52:11,516 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:52:11,548 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:52:13,931 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:15,461 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:19,997 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:20,953 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:24,018 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:26,144 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:52:26,145 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:26,530 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:52:26,530 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:52:26,563 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:52:28,051 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:31,447 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:32,069 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:36,476 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:38,145 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:41,564 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:41,565 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:52:41,566 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:52:41,575 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:52:44,218 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:46,846 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:48,251 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:52,741 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:52:54,286 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:56,151 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:52:56,579 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:52:56,583 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:52:56,584 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:52:58,313 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:52:58,702 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:02,336 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:04,596 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:06,379 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:10,046 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:10,403 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:11,593 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:53:11,595 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:53:11,595 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:53:14,423 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:15,437 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:20,495 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:20,805 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:24,553 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:25,945 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:26,163 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:53:26,599 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:53:26,616 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:53:26,616 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:53:28,581 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:31,568 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:32,610 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:36,661 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:36,958 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:40,688 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:41,611 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:53:41,638 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:53:41,638 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:53:42,747 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:44,740 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:47,972 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:50,801 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:53,215 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:54,811 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:53:56,170 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:53:56,621 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:53:56,670 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:53:56,670 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:53:58,870 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:53:58,870 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:02,900 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:04,841 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:06,917 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:09,946 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:10,384 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:11,634 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:54:11,681 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:54:11,681 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:54:15,772 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:15,993 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:20,008 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:20,978 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:24,048 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:26,182 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:54:26,182 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:26,648 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:54:26,680 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:54:26,680 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:54:28,060 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:32,094 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:32,110 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:36,152 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:37,456 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:40,180 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:41,660 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:54:41,691 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:54:41,691 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:54:42,822 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:46,248 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:47,956 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:50,277 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:53,514 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:54:54,311 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:56,184 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:54:56,670 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:54:56,700 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:54:56,702 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:54:58,353 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:54:58,900 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:02,384 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:04,203 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:06,435 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:09,387 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:10,471 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:11,682 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:55:11,712 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:55:11,712 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:55:15,038 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:16,511 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:20,304 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:20,559 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:24,587 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:25,793 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:26,197 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:55:26,683 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:55:26,714 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:55:26,714 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:55:28,630 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:31,689 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:34,677 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:37,078 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:40,742 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:41,679 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:55:41,723 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:55:41,723 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:55:42,903 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:46,829 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:48,070 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:50,858 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:53,241 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:54,905 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:55:56,207 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:55:56,689 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:55:56,734 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:55:56,734 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:55:58,633 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:55:58,952 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:03,997 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:04,089 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:08,054 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:09,810 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:11,693 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:56:11,756 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:56:11,756 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:56:12,104 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:14,933 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:16,124 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:20,398 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:22,187 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:25,876 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:26,220 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:56:26,233 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:26,700 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:56:26,762 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:56:26,763 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:56:30,287 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:31,443 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:34,323 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:36,843 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:40,387 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:41,714 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:56:41,777 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:56:41,778 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:56:41,881 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:44,428 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:47,016 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:48,448 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:52,474 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:56:52,504 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:56,225 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:56:56,708 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:56:56,805 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:56:56,805 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:56:57,909 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:56:58,525 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:02,566 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:03,622 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:06,611 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:09,129 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:10,641 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:11,721 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:57:11,814 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:57:11,814 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:57:14,184 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:16,668 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:20,031 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:20,700 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:24,730 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:25,393 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:26,239 DEBUG   SenderThread:10788 [sender.py:send():379] send: stats
+2024-04-05 16:57:26,736 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:57:26,830 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:57:26,831 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:57:30,772 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:31,040 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:34,800 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:36,730 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:38,846 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log
+2024-04-05 16:57:41,750 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-05 16:57:41,750 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: status_report
+2024-04-05 16:57:41,847 DEBUG   HandlerThread:10788 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-05 16:57:41,848 DEBUG   SenderThread:10788 [sender.py:send_request():406] send_request: stop_status
+2024-04-05 16:57:42,872 INFO    Thread-16 :10788 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\wandb\run-20240405_163924-2xwb9q30\files\output.log

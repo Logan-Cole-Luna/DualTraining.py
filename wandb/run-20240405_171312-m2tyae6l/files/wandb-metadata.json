@@ -1,0 +1,53 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.2",
+    "heartbeatAt": "2024-04-05T21:13:14.003104",
+    "startedAt": "2024-04-05T21:13:12.964305",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Logan\\OneDrive\\Past Documents\\GitHub\\DualTraining.py\\YOLOV8Train.py",
+    "codePathLocal": "YOLOV8Train.py",
+    "codePath": "YOLOV8Train.py",
+    "git": {
+        "remote": "https://github.com/Logan-Cole-Luna/DualTraining.py.git",
+        "commit": "bb68c3e164a6cdbd281d0c1bc3e641c581374610"
+    },
+    "email": "LoganLambeth8@gmail.com",
+    "root": "C:/Users/Logan/OneDrive/Past Documents/GitHub/DualTraining.py",
+    "host": "DESKTOP-JA3B0L7",
+    "username": "Logan",
+    "executable": "C:\\Users\\Logan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3593.0,
+        "min": 0.0,
+        "max": 3593.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3593.0,
+            "min": 0.0,
+            "max": 3593.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.7163429260254,
+            "used": 224.8861312866211
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 63.94805908203125
+    }
+}

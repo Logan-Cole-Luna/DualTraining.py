@@ -1,0 +1,7 @@
+
+Training on cpu
+Traceback (most recent call last):
+  File "C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\YOLOV8Train.py", line 16, in <module>
+    model = YOLO('yolov8n.pt', device=device)  # Specify the device here
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Model.__init__() got an unexpected keyword argument 'device'
