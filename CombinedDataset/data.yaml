@@ -1,0 +1,118 @@
+names:
+  0: A10
+  1: A400M
+  2: AG600
+  3: AV8B
+  4: B1
+  5: B2
+  6: B52
+  7: Be200
+  8: C2
+  9: C17
+  10: C5
+  11: E2
+  12: E7
+  13: EF2000
+  14: F117
+  15: F14
+  16: F15
+  17: F18
+  18: F22
+  19: F35
+  20: F4
+  21: JAS39
+  22: MQ9
+  23: Mig31
+  24: Mirage2000
+  25: P3
+  26: RQ4
+  27: Rafale
+  28: SR71
+  29: Su34
+  30: Su57
+  31: Tu160
+  32: Tu95
+  33: Tornado
+  34: U2
+  35: US2
+  36: V22
+  37: XB70
+  38: YF23
+  39: Vulcan
+  40: J20
+  41: F16
+  42: C130
+  43: KC135
+  44: Su25
+  45: J10
+  46: A300
+  47: A310
+  48: A320
+  49: A330
+  50: A340
+  51: A380
+  52: ATR-42
+  53: ATR-72
+  54: An-12
+  55: BAE 146
+  56: BAE-125
+  57: Beechcraft 1900
+  58: Boeing 707
+  59: Boeing 717
+  60: Boeing 727
+  61: Boeing 737
+  62: Boeing 747
+  63: Boeing 757
+  64: Boeing 767
+  65: Boeing 777
+  66: C-47
+  67: CRJ-200
+  68: CRJ-700
+  69: Cessna 172
+  70: Cessna 208
+  71: Cessna Citation
+  72: Challenger 600
+  73: DC-10
+  74: DC-3
+  75: DC-6
+  76: DC-8
+  77: DC-9
+  78: DH-82
+  79: DHC-1
+  80: DHC-6
+  81: DR-400
+  82: Dash 8
+  83: Dornier 328
+  84: EMB-120
+  85: Embraer E-Jet
+  86: Embraer ERJ 145
+  87: Embraer Legacy 600
+  88: Eurofighter Typhoon
+  89: Falcon 2000
+  90: Falcon 900
+  91: Fokker 100
+  92: Fokker 50
+  93: Fokker 70
+  94: Global Express
+  95: Gulfstream
+  96: Hawk T1
+  97: Il-76
+  98: King Air
+  99: L-1011
+  100: MD-11
+  101: MD-80
+  102: MD-90
+  103: Metroliner
+  104: PA-28
+  105: SR-20
+  106: Saab 2000
+  107: Saab 340
+  108: Spitfire
+  109: Tu-134
+  110: Tu-154
+  111: Yak-42
+
+path: C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\CombinedDataset/
+test: test/images
+train: train/images
+val: valid/images

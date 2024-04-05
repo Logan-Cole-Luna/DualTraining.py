@@ -8,7 +8,7 @@ from PIL import Image
 
 # Define the paths to the dataset folders
 military_source_dir = Path('Military/dataset')
-fvgc_source_dir = Path('FVGC/fgvc-aircraft-2013b/fgvc-aircraft-2013b/data')
+fvgc_source_dir = Path("C:\Users\Logan\Downloads\archive\fgvc-aircraft-2013b\fgvc-aircraft-2013b\data")
 combined_target_dir = Path('UnifiedDataset')
 
 # Create target directories for the combined dataset
