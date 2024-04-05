@@ -22,3 +22,4 @@ config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8n.pt', 'data': 'Comb
 2024-04-05 17:20:43,745 INFO    MainThread:20632 [wandb_run.py:_redirect():2255] Wrapping output streams.
 2024-04-05 17:20:43,745 INFO    MainThread:20632 [wandb_run.py:_redirect():2280] Redirects installed.
 2024-04-05 17:20:43,746 INFO    MainThread:20632 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-05 17:53:24,262 WARNING MsgRouterThr:20632 [router.py:message_loop():77] message_loop has been closed
