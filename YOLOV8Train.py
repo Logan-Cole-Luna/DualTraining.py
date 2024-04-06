@@ -4,6 +4,11 @@ import wandb
 import torch
 import torchvision
 
+# Log in to wandb
+wandb.login(key="63033089206962899707825b6063aba50505b314")  # Replace with your wandb API key
+
+# Initialize wandb
+wandb.init(project="YoloV8_Combined_Aircraft", entity="logan03luna", name="Attempt1")
 
 
 def setup_and_train():
@@ -21,7 +26,7 @@ def setup_and_train():
     model = YOLO('yolov8n.pt')  # Specify the device here
 
     # Train the model
-    results = model.train(data='CombinedDataset/data.yaml', epochs=100, imgsz=640)
+    results = model.train(data='CombinedDataset/data.yaml', epochs=300, imgsz=640)
     return results
 
 if __name__ == '__main__':
