@@ -1,0 +1,68 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ 'rect=True' is incompatible with DataLoader shuffle, setting shuffle=False
+[34m[1mtrain: [39m[22mScanning B:\Datasets\militaryAircraft.v9i.yolov8\train\labels.cache... 3993 images, 23 backgrounds, 0 corrupt: 100%|██████████| 3993/3993 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning B:\Datasets\militaryAircraft.v9i.yolov8\test\labels.cache... 1048 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1048/1048 [00:00<?, ?it/s]
+Plotting labels to YoloV8MilitaryAircraft\Attempt1\labels.jpg...
+  0%|          | 0/250 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.00025, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mYoloV8MilitaryAircraft\Attempt1
+Starting training for 150 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1/150       2.3G      1.198      4.634      1.358         15        352: 100%|██████████| 250/250 [00:37<00:00,  6.64it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  97%|█████████▋| 32/33 [00:58<00:01,  1.78s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 33/33 [00:59<00:00,  1.81s/it]
+      2/150       1.1G       2.21      4.441      1.902         26        640:   0%|          | 1/250 [00:00<01:11,  3.47it/s]
+
+
+

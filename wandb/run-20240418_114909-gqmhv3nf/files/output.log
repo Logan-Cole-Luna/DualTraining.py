@@ -1,0 +1,36 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mScanning C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\CombinedDataset\train\labels.cache... 11320 images, 46 backgrounds, 0 corrupt: 100%|██████████| 11320/11320 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning C:\Users\Logan\OneDrive\Past Documents\GitHub\DualTraining.py\CombinedDataset\valid\labels.cache... 1666 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1666/1666 [00:00<?, ?it/s]
+Plotting labels to YoloV8CombinedAircraft\Attempt1\labels.jpg...
+  0%|          | 0/708 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Scripts\yolo.exe\__main__.py", line 7, in <module>
+    sys.exit(entrypoint())
+             ^^^^^^^^^^^^
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\cfg\__init__.py", line 582, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\engine\model.py", line 667, in train
+    self.trainer.train()
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\engine\trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\engine\trainer.py", line 369, in _do_train
+    batch = self.preprocess_batch(batch)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\site-packages\ultralytics\models\yolo\detect\train.py", line 63, in preprocess_batch
+    random.randrange(self.args.imgsz * 0.5, self.args.imgsz * 1.5 + self.stride)
+  File "C:\Users\Logan\AppData\Local\Programs\Python\Python312\Lib\random.py", line 301, in randrange
+    istart = _index(start)
+             ^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m SGD(lr=0.01, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 640 train, 640 val
+Using 8 dataloader workers
+Logging results to [1mYoloV8CombinedAircraft\Attempt1
+Starting training for 300 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size

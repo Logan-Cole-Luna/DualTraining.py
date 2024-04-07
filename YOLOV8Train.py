@@ -1,6 +1,5 @@
 from ultralytics import YOLO
 import wandb
-
 import torch
 import torchvision
 

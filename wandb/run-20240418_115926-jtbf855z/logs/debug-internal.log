@@ -1,0 +1,199 @@
+2024-04-18 11:59:26,228 INFO    StreamThr :12512 [internal.py:wandb_internal():86] W&B internal server running at pid: 12512, started at: 2024-04-18 11:59:26.228447
+2024-04-18 11:59:26,229 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status
+2024-04-18 11:59:26,233 INFO    WriterThread:12512 [datastore.py:open_for_write():87] open: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\run-jtbf855z.wandb
+2024-04-18 11:59:26,234 DEBUG   SenderThread:12512 [sender.py:send():379] send: header
+2024-04-18 11:59:26,270 DEBUG   SenderThread:12512 [sender.py:send():379] send: run
+2024-04-18 11:59:26,816 INFO    SenderThread:12512 [dir_watcher.py:__init__():211] watching files in: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files
+2024-04-18 11:59:26,816 INFO    SenderThread:12512 [sender.py:_start_run_threads():1124] run started: jtbf855z with start time 1713455966.229439
+2024-04-18 11:59:26,826 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: check_version
+2024-04-18 11:59:26,827 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: check_version
+2024-04-18 11:59:27,254 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: run_start
+2024-04-18 11:59:27,274 DEBUG   HandlerThread:12512 [system_info.py:__init__():26] System info init
+2024-04-18 11:59:27,274 DEBUG   HandlerThread:12512 [system_info.py:__init__():41] System info init done
+2024-04-18 11:59:27,274 INFO    HandlerThread:12512 [system_monitor.py:start():194] Starting system monitor
+2024-04-18 11:59:27,274 INFO    SystemMonitor:12512 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-18 11:59:27,274 INFO    HandlerThread:12512 [system_monitor.py:probe():214] Collecting system info
+2024-04-18 11:59:27,279 INFO    SystemMonitor:12512 [interfaces.py:start():190] Started cpu monitoring
+2024-04-18 11:59:27,280 INFO    SystemMonitor:12512 [interfaces.py:start():190] Started disk monitoring
+2024-04-18 11:59:27,280 INFO    SystemMonitor:12512 [interfaces.py:start():190] Started gpu monitoring
+2024-04-18 11:59:27,287 INFO    SystemMonitor:12512 [interfaces.py:start():190] Started memory monitoring
+2024-04-18 11:59:27,291 DEBUG   HandlerThread:12512 [system_info.py:probe():150] Probing system
+2024-04-18 11:59:27,295 INFO    SystemMonitor:12512 [interfaces.py:start():190] Started network monitoring
+2024-04-18 11:59:27,296 DEBUG   HandlerThread:12512 [system_info.py:_probe_git():135] Probing git
+2024-04-18 11:59:27,360 DEBUG   HandlerThread:12512 [system_info.py:_probe_git():143] Probing git done
+2024-04-18 11:59:27,360 DEBUG   HandlerThread:12512 [system_info.py:probe():198] Probing system done
+2024-04-18 11:59:27,360 DEBUG   HandlerThread:12512 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.22631-SP0', 'python': '3.12.2', 'heartbeatAt': '2024-04-18T15:59:27.295663', 'startedAt': '2024-04-18T15:59:26.221923', 'docker': None, 'cuda': None, 'args': ('detect', 'train', 'data=B:\\Datasets\\militaryAircraft.v9i.yolov8\\data.yaml', 'model=yolov8n.pt', 'epochs=150', 'imgsz=640', 'batch=16', 'amp=true', 'mosaic=1.0', 'auto_augment=randaugment', 'hsv_h=0.015', 'hsv_s=0.7', 'hsv_v=0.4', 'degrees=0.0', 'translate=0.1', 'scale=0.5', 'shear=0.0', 'perspective=0.0', 'flipud=0.0', 'fliplr=0.5', 'rect=true', 'cos_lr=true', 'warmup_epochs=3.0', 'warmup_momentum=0.8', 'warmup_bias_lr=0.1', 'lr0=0.01', 'lrf=0.01', 'momentum=0.937', 'weight_decay=0.0005', 'project=YoloV8MilitaryAircraft', 'name=Attempt1', 'plots=True', 'visualize=true', 'save_txt=true', 'pretrained=true', 'workers=8'), 'state': 'running', 'program': '-m __main__', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Logan-Cole-Luna/DualTraining.py.git', 'commit': '45eb7563a52654f5bf60ec60cd79310df4ca3991'}, 'email': 'LoganLambeth8@gmail.com', 'root': 'B:/GitHub/DualTraining.py', 'host': 'DESKTOP-JA3B0L7', 'username': 'Logan', 'executable': 'C:\\Users\\Logan\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3593.0, 'min': 0.0, 'max': 3593.0}, 'cpu_freq_per_core': [{'current': 3593.0, 'min': 0.0, 'max': 3593.0}], 'disk': {'/': {'total': 476.93847274780273, 'used': 192.0959930419922}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 63.94804763793945}}
+2024-04-18 11:59:27,360 INFO    HandlerThread:12512 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-18 11:59:27,360 INFO    HandlerThread:12512 [system_monitor.py:probe():227] Publishing system info
+2024-04-18 11:59:27,361 INFO    HandlerThread:12512 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-18 11:59:27,365 DEBUG   SenderThread:12512 [sender.py:send():379] send: files
+2024-04-18 11:59:27,365 INFO    SenderThread:12512 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-18 11:59:27,442 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-18 11:59:27,442 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: python_packages
+2024-04-18 11:59:27,443 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 11:59:27,443 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 11:59:27,443 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 11:59:27,832 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\wandb-metadata.json
+2024-04-18 11:59:27,833 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\requirements.txt
+2024-04-18 11:59:28,032 DEBUG   SenderThread:12512 [sender.py:send():379] send: telemetry
+2024-04-18 11:59:28,182 INFO    wandb-upload_0:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\0o1cz0cn-wandb-metadata.json
+2024-04-18 11:59:28,844 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 11:59:29,497 DEBUG   SenderThread:12512 [sender.py:send():379] send: telemetry
+2024-04-18 11:59:30,859 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 11:59:31,911 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:32,867 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 11:59:36,929 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:41,948 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:42,447 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 11:59:42,448 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 11:59:42,448 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 11:59:47,611 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:50,967 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 11:59:53,230 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:57,462 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 11:59:57,462 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 11:59:57,463 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 11:59:58,653 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 11:59:59,040 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\config.yaml
+2024-04-18 12:00:03,803 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:08,855 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:12,463 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:00:12,478 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:00:12,478 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:00:14,630 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:19,718 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:22,271 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:23,285 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:24,291 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:25,181 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:25,299 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:27,306 DEBUG   SystemMonitor:12512 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-18 12:00:27,307 DEBUG   SenderThread:12512 [sender.py:send():379] send: stats
+2024-04-18 12:00:27,321 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:27,478 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:00:27,493 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:00:27,494 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:00:29,345 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:30,261 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:31,367 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:33,389 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:35,369 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:35,405 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:37,428 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:39,450 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:40,489 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:41,476 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:42,490 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:00:42,506 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:00:42,506 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:00:43,493 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:45,518 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:45,527 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:47,545 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:49,548 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:50,531 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:51,564 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:53,582 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:55,595 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:55,861 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:00:57,315 DEBUG   SenderThread:12512 [sender.py:send():379] send: stats
+2024-04-18 12:00:57,499 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:00:57,516 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:00:57,516 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:00:57,610 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:00:59,605 DEBUG   SenderThread:12512 [sender.py:send():379] send: telemetry
+2024-04-18 12:00:59,606 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:00:59,606 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:00:59,639 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:01,461 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:01,665 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:01,666 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\config.yaml
+2024-04-18 12:01:03,682 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:05,694 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:06,949 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:07,709 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:09,717 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:11,724 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:12,503 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:01:12,518 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:12,534 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:01:12,534 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:01:13,741 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:15,767 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:17,780 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:18,249 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:19,787 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:21,801 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:23,633 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:23,806 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:25,822 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:27,326 DEBUG   SenderThread:12512 [sender.py:send():379] send: stats
+2024-04-18 12:01:27,513 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:01:27,545 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:01:27,545 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:01:27,841 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:28,705 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:29,860 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:31,889 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:33,912 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:33,914 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:35,937 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:36,948 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:38,978 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:39,239 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:40,997 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:42,522 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:01:42,553 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:01:42,553 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:01:43,004 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:44,290 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:45,019 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:47,031 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:49,048 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:49,811 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:51,072 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:53,083 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:55,100 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:55,455 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:01:57,113 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:57,331 DEBUG   SenderThread:12512 [sender.py:send():379] send: stats
+2024-04-18 12:01:57,535 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 12:01:57,565 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 12:01:57,565 DEBUG   SenderThread:12512 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 12:01:59,134 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:01:59,606 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,061 DEBUG   SenderThread:12512 [sender.py:send():379] send: files
+2024-04-18 12:02:00,062 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,062 INFO    SenderThread:12512 [sender.py:_save_file():1390] saving file media\images\labels_1_ffdddf2c275605e618c8.jpg with policy now
+2024-04-18 12:02:00,073 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,073 DEBUG   SenderThread:12512 [sender.py:send():379] send: files
+2024-04-18 12:02:00,074 INFO    SenderThread:12512 [sender.py:_save_file():1390] saving file media\images\train_batch0_1_b85c26769dcc21467e4b.jpg with policy now
+2024-04-18 12:02:00,087 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,087 DEBUG   SenderThread:12512 [sender.py:send():379] send: files
+2024-04-18 12:02:00,087 INFO    SenderThread:12512 [sender.py:_save_file():1390] saving file media\images\train_batch1_1_bcf73516db7ec0c86b90.jpg with policy now
+2024-04-18 12:02:00,101 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,101 DEBUG   SenderThread:12512 [sender.py:send():379] send: files
+2024-04-18 12:02:00,101 INFO    SenderThread:12512 [sender.py:_save_file():1390] saving file media\images\train_batch2_1_ba38aea9a1f9ac06f6da.jpg with policy now
+2024-04-18 12:02:00,147 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:02:00,147 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media\images\train_batch2_1_ba38aea9a1f9ac06f6da.jpg
+2024-04-18 12:02:00,147 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media\images\train_batch1_1_bcf73516db7ec0c86b90.jpg
+2024-04-18 12:02:00,148 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media\images\labels_1_ffdddf2c275605e618c8.jpg
+2024-04-18 12:02:00,149 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media\images\train_batch0_1_b85c26769dcc21467e4b.jpg
+2024-04-18 12:02:00,150 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media
+2024-04-18 12:02:00,150 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_created():271] file/dir created: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\media\images
+2024-04-18 12:02:00,302 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 12:02:00,434 INFO    wandb-upload_0:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\7hjj4uii-media/images/labels_1_ffdddf2c275605e618c8.jpg
+2024-04-18 12:02:00,608 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:02:01,009 INFO    wandb-upload_1:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\2mu30yoh-media/images/train_batch0_1_b85c26769dcc21467e4b.jpg
+2024-04-18 12:02:01,014 INFO    wandb-upload_3:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\vmaqx9pu-media/images/train_batch2_1_ba38aea9a1f9ac06f6da.jpg
+2024-04-18 12:02:01,156 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:02:01,488 INFO    wandb-upload_0:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\g7yhiuey-media/images/labels_1_ffdddf2c275605e618c8.jpg
+2024-04-18 12:02:01,543 INFO    wandb-upload_2:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\hj6em89b-media/images/train_batch1_1_bcf73516db7ec0c86b90.jpg
+2024-04-18 12:02:01,983 INFO    wandb-upload_3:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\x82ofeft-media/images/train_batch0_1_b85c26769dcc21467e4b.jpg
+2024-04-18 12:02:02,023 INFO    wandb-upload_0:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\fl7k9qp3-media/images/train_batch2_1_ba38aea9a1f9ac06f6da.jpg
+2024-04-18 12:02:02,163 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:02:02,458 INFO    wandb-upload_2:12512 [upload_job.py:push():131] Uploaded file C:\Users\Logan\AppData\Local\Temp\tmpr4y7x9zewandb\nhy5dnhn-media/images/train_batch1_1_bcf73516db7ec0c86b90.jpg
+2024-04-18 12:02:03,174 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:02:05,202 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
+2024-04-18 12:02:05,683 DEBUG   HandlerThread:12512 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 12:02:07,215 INFO    Thread-16 :12512 [dir_watcher.py:_on_file_modified():288] file/dir modified: B:\GitHub\DualTraining.py\wandb\run-20240418_115926-jtbf855z\files\output.log
