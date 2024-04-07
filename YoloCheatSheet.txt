@@ -111,3 +111,27 @@ hsv_h: Hue adjustment in HSV space.
 hsv_s: Saturation adjustment in HSV space.
 hsv_v: Value (brightness) adjustment in HSV space.
 degrees: Rotation range for random
+
+
+Training Values:
+box_loss: The loss related to bounding box predictions.
+It measures how well the model is doing at predicting the location and size of the boxes around the objects.
+
+cls_loss: The classification loss.
+This indicates how well the model is at classifying the objects within the boxes.
+
+dfl_loss: The distribution focal loss, used in some YOLO versions to enhance accuracy by focusing more on hard to classify instances.
+
+Instances: The number of object instances in the images that were processed during this epoch.
+
+Size: The input size of images during training, which is 640 pixels. This can vary as YOLO supports multi-scale training.
+
+Box(P): Precision for bounding box predictions.
+
+R: Recall for the objects detected.
+
+mAP50: Mean Average Precision at IoU (Intersection over Union) threshold of 0.5.
+It's a common metric for object detection, representing model accuracy.
+
+mAP50-95: Mean Average Precision averaged over multiple IoU thresholds from 0.5 to 0.95 (with a step size of 0.05).
+This is a more stringent metric, indicating robust performance across a range of IoU thresholds.
