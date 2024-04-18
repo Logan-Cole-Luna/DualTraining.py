@@ -13,4 +13,4 @@ for result in results:
     keypoints = result.keypoints  # Keypoints object for pose outputs
     probs = result.probs  # Probs object for classification outputs
     result.show()  # display to screen
-    #result.save(filename='result.jpg')  # save to disk
+    result.save(filename='result.jpg')  # save to disk

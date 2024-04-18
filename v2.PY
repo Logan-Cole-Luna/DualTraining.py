@@ -3,11 +3,6 @@ import wandb
 
 import torch
 import torchvision
-# Start training from a pretrained *.pt model
-# yolo detect train data=CombinedDataset/data.yaml model=yolov8n.pt epochs=300 imgsz=640 resume=True project=YoloV8CombinedAircraft name=Attempt1 plots=True
-# yolo detect train data=CombinedDataset/data.yaml model=yolov8n.pt epochs=300 imgsz=640 project=YoloV8CombinedAircraft name=Attempt1 plots=True visualize=true save_txt=true
-# yolo detect train data=CombinedDataset/data.yaml model=yolov8n.pt epochs=300 imgsz=640 batch=16 amp=true mosaic=1.0 auto_augment=randaugment hsv_h=0.015 hsv_s=0.7 hsv_v=0.4 degrees=0.0 translate=0.1 scale=0.5 shear=0.0 perspective=0.0 flipud=0.0 fliplr=0.5 multi_scale=true cos_lr=true warmup_epochs=3.0 warmup_momentum=0.8 warmup_bias_lr=0.1 lr0=0.01 lrf=0.01 momentum=0.937 weight_decay=0.0005 project=YoloV8CombinedAircraft name=Attempt1 plots=True visualize=true save_txt=true pretrained=true workers=8
-# yolo cfg
 
 def setup_and_train():
     print("PyTorch version:", torch.__version__)
