@@ -8,19 +8,14 @@ from PIL import Image
 
 # Define the paths to the dataset folders
 #military_source_dir = Path('Military/dataset')
-fvgc_source_dir = Path(r"C:\Users\Logan\Downloads\archive\fgvc-aircraft-2013b\fgvc-aircraft-2013b\data")
-combined_target_dir = Path('UnifiedDataset')
+fvgc_source_dir = Path(r"B:\Datasets\archive\fgvc-aircraft-2013b\fgvc-aircraft-2013b\data")
+combined_target_dir = Path('CivilianDataset')
 
 # Create target directories for the combined dataset
 splits = ['train', 'valid', 'test']
 for split in splits:
     for folder in ['images', 'labels']:
         (combined_target_dir / split / folder).mkdir(parents=True, exist_ok=True)
-
-# Define class mappings for both datasets
-military_classes = ['A10', 'A400M', 'AG600', 'AV8B', 'B1', 'B2', 'B52', 'Be200', 'C2', 'C17', 'C5', 'E2', 'E7', 'EF2000',
-                    'F117', 'F14', 'F15', 'F18', 'F22', 'F35', 'F4', 'JAS39', 'MQ9', 'Mig31', 'Mirage2000', 'P3', 'RQ4', 'Rafale',
-                    'SR71', 'Su34', 'Su57', 'Tu160', 'Tu95', 'Tornado', 'U2', 'US2', 'V22', 'XB70', 'YF23', 'Vulcan', 'J20', "F16", "C130", "KC135", "Su25", "J10"]
 
 fvgc_classes = [
     'A300', 'A310', 'A320', 'A330', 'A340', 'A380', 'ATR-42', 'ATR-72', 'An-12', 'BAE 146', 'BAE-125', 'Beechcraft 1900',
@@ -33,37 +28,93 @@ fvgc_classes = [
     'Tu-134', 'Tu-154', 'Yak-42', 'J10', 'Su25','KC135'
 ]
 
-class_dict = {0: 'A10', 1: 'A400M', 2: 'AG600', 3: 'AV8B', 4: 'B1', 5: 'B2', 6: 'B52', 7: 'Be200', 8: 'C2',
-                9: 'C17', 10: 'C5', 11: 'E2', 12: 'E7', 13: 'EF2000', 14: 'F117', 15: 'F14', 16: 'F15', 17: 'F18',
-                18: 'F22', 19: 'F35', 20: 'F4', 21: 'JAS39', 22: 'MQ9', 23: 'Mig31', 24: 'Mirage2000', 25: 'P3',
-                26: 'RQ4', 27: 'Rafale', 28: 'SR71', 29: 'Su34', 30: 'Su57', 31: 'Tu160', 32: 'Tu95', 33: 'Tornado',
-                34: 'U2', 35: 'US2', 36: 'V22', 37: 'XB70', 38: 'YF23', 39: 'Vulcan', 40: 'J20', 41: 'F16',
-                42: 'C130', 43: 'KC135', 44: 'Su25', 45: 'J10', 46: 'A300', 47: 'A310', 48: 'A320', 49: 'A330',
-                50: 'A340', 51: 'A380', 52: 'ATR-42', 53: 'ATR-72', 54: 'An-12', 55: 'BAE 146', 56: 'BAE-125',
-                57: 'Beechcraft 1900', 58: 'Boeing 707', 59: 'Boeing 717', 60: 'Boeing 727', 61: 'Boeing 737',
-                62: 'Boeing 747', 63: 'Boeing 757', 64: 'Boeing 767', 65: 'Boeing 777', 66: 'C-47', 67: 'CRJ-200',
-                68: 'CRJ-700', 69: 'Cessna 172', 70: 'Cessna 208', 71: 'Cessna Citation', 72: 'Challenger 600',
-                73: 'DC-10', 74: 'DC-3', 75: 'DC-6', 76: 'DC-8', 77: 'DC-9', 78: 'DH-82', 79: 'DHC-1', 80: 'DHC-6',
-                81: 'DR-400', 82: 'Dash 8', 83: 'Dornier 328', 84: 'EMB-120', 85: 'Embraer E-Jet', 86: 'Embraer ERJ 145',
-                87: 'Embraer Legacy 600', 88: 'Eurofighter Typhoon', 89: 'Falcon 2000', 90: 'Falcon 900', 91: 'Fokker 100',
-                92: 'Fokker 50', 93: 'Fokker 70', 94: 'Global Express', 95: 'Gulfstream', 96: 'Hawk T1', 97: 'Il-76',
-                98: 'King Air', 99: 'L-1011', 100: 'MD-11', 101: 'MD-80', 102: 'MD-90', 103: 'Metroliner', 104: 'PA-28',
-                105: 'SR-20', 106: 'Saab 2000', 107: 'Saab 340', 108: 'Spitfire', 109: 'Tu-134', 110: 'Tu-154', 111: 'Yak-42'}
+class_dict = {
+ 0: 'A300',
+ 1: 'A310',
+ 2: 'A320',
+ 3: 'A330',
+ 4: 'A340',
+ 5: 'A380',
+ 6: 'ATR-42',
+ 7: 'ATR-72',
+ 8: 'An-12',
+ 9: 'BAE 146',
+ 10: 'BAE-125',
+ 11: 'Beechcraft 1900',
+ 12: 'Boeing 707',
+ 13: 'Boeing 717',
+ 14: 'Boeing 727',
+ 15: 'Boeing 737',
+ 16: 'Boeing 747',
+ 17: 'Boeing 757',
+ 18: 'Boeing 767',
+ 19: 'Boeing 777',
+ 20: 'C-130',
+ 21: 'C-47',
+ 22: 'CRJ-200',
+ 23: 'CRJ-700',
+ 24: 'Cessna 172',
+ 25: 'Cessna 208',
+ 26: 'Cessna Citation',
+ 27: 'Challenger 600',
+ 28: 'DC-10',
+ 29: 'DC-3',
+ 30: 'DC-6',
+ 31: 'DC-8',
+ 32: 'DC-9',
+ 33: 'DH-82',
+ 34: 'DHC-1',
+ 35: 'DHC-6',
+ 36: 'DR-400',
+ 37: 'Dash 8',
+ 38: 'Dornier 328',
+ 39: 'EMB-120',
+ 40: 'Embraer E-Jet',
+ 41: 'Embraer ERJ 145',
+ 42: 'Embraer Legacy 600',
+ 43: 'Eurofighter Typhoon',
+ 44: 'F-16',
+ 45: 'F/A-18',
+ 46: 'Falcon 2000',
+ 47: 'Falcon 900',
+ 48: 'Fokker 100',
+ 49: 'Fokker 50',
+ 50: 'Fokker 70',
+ 51: 'Global Express',
+ 52: 'Gulfstream',
+ 53: 'Hawk T1',
+ 54: 'Il-76',
+ 55: 'King Air',
+ 56: 'L-1011',
+ 57: 'MD-11',
+ 58: 'MD-80',
+ 59: 'MD-90',
+ 60: 'Metroliner',
+ 61: 'PA-28',
+ 62: 'SR-20',
+ 63: 'Saab 2000',
+ 64: 'Saab 340',
+ 65: 'Spitfire',
+ 66: 'Tornado',
+ 67: 'Tu-134',
+ 68: 'Tu-154',
+ 69: 'Yak-42',
+ 70: 'J10',
+ 71: 'Su25',
+ 72: 'KC135'
+}
 
 inverted_class_dict = {v: k for k, v in class_dict.items()}
 
 # Handle overlapping classes by renaming them in the FVGC dataset
-class_remap = {"F-16": "F16", "C-130": "C130", "F/A-18": "F18"}
-
-# Combine both class lists into a unified list without duplicates
-combined_classes = list(set(military_classes + [class_remap.get(c, c) for c in fvgc_classes]))
+class_remap = {"F-16": "F-16", "C-130": "C-130", "F/A-18": "F/A-18"}
 
 # Function to get the class index from the combined class dictionary
 def get_class_index(class_name):
-    remapped_name = class_remap.get(class_name, class_name)
+    '''    remapped_name = class_remap.get(class_name, class_name)
     if remapped_name not in class_dict.values():
-        raise ValueError(f"Class name '{remapped_name}' is not in the class dictionary.")
-    return list(class_dict.keys())[list(class_dict.values()).index(remapped_name)]
+        raise ValueError(f"Class name '{remapped_name}' is not in the class dictionary.")'''
+    return list(class_dict.keys())[list(class_dict.values()).index(class_name)]
 
 # Function to read image class files and return a dictionary mapping image names to class labels
 def read_image_classes(file_path):
@@ -164,12 +215,12 @@ print("Dataset processing complete.")
 
 
 # Convert the combined list to a NumPy array and then to a list of Python strings
-classes = [str(cls) for cls in np.array(combined_classes)]
+classes = [str(cls) for cls in np.array(fvgc_classes)]
 names = {idx: cls for idx, cls in enumerate(classes)}
 
 # YOLO configuration dictionary
 yolo_config = {
-    'path': '/content/drive/Othercomputers/My MacBook Pro/UnifiedDataset',
+    'path': 'B:\GitHub\DualTraining.py\CivilianDataset',
     'train': 'images/train',
     #'val': 'images/valid',
     'test': 'images/test',
@@ -182,7 +233,7 @@ yolo_config = {
 }
 
 # Specify the directory and file name for the YAML file
-yaml_path = 'UnifiedDataset/data.yaml'
+yaml_path = 'CivilianDataset/data.yaml'
 
 # Save the YAML file
 with open(yaml_path, 'w') as yaml_file:

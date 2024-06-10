@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load a pretrained YOLOv8n model
-model = YOLO('YoloV8CombinedAircraft/Attempt14/weights/best.pt')  # pretrained YOLOv8n model
+model = YOLO('YoloV8UnFroze/Attempt12/weights/best.pt')  # pretrained YOLOv8n model
 
 # Define source as YouTube video URL
 source = 'https://www.youtube.com/watch?v=UojjrMrW96g'
